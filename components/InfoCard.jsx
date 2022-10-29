@@ -24,7 +24,7 @@ const InfoCard = ({ img, location, title, description, star, price, total, long,
 				<div className="flex justify-between items-end pt-5">
 					<p className="flex justify-center">
 						<StarIcon className="h-5 text-yellow-500"/>
-						<div>{star}</div>
+						<span>{star}</span>
 					</p>
 					<div className="text-right">
 						<p className="text-lg lg:text-2xl font-[cereal-bold] pb-2">
