@@ -62,12 +62,11 @@ const Header = () => {
  return (<header className="w-full sticky top-0 shadow-md z-50">
 	<div className="bg-white flex justify-between items-center px-5 py-4 md:px-10 md:py-5">
 		{/* Logo */}
-		<div className="relative w-10 h-10 mr-5">
-			<Link href="/">
+		<Link href="/">
+			<div className="relative w-10 h-10 mr-5">
 				<Image src={Logo} alt="logo" layout="fill" objectFit="contain"/>
-			</Link>
-		</div>
-
+			</div>
+		</Link>
 
     {/* Searchbar */}
 		<form onSubmit={search} className="flex grow md:grow-0 items-center border p-2 md:ml-28 rounded-full bg-white border-2">
