@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	@apply transition;
+}
+
+@font-face {
+	font-family: cereal-bold;
+  src: url("../AirbnbCereal_W_Bd.otf");
+}
+@font-face {
+	font-family: cereal-light;
+  src: url("../AirbnbCereal_W_Lt.otf");
+}
+@font-face {
+	font-family: cereal-medium;
+  src: url("../AirbnbCereal_W_Md.otf");
+}
+
+.filter {
+	@apply px-4 py-2 border rounded-full hover:bg-gray-200 bg-gray-100 active:scale-95 active:bg-gray-300 transform duration-100 ease-out;
+}
+
+
+
+
+
