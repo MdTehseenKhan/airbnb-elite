@@ -5,7 +5,7 @@ const InfoCard = ({ img, location, title, description, star, price, total, long,
 	return (<div className="py-5 border-b first:border-t">
 		<div className="flex flex-col md:flex-row items-center rounded-lg py-7 px-3 pr-4 cursor-pointer hover:shadow-md">
 			<div className="relative w-full h-52 md:w-80 flex-shrink-0">
-				<Image src={img} layout="fill" objectFit="cover" className="rounded-lg hover:opacity-80" />
+				<Image src={img} alt={location} layout="fill" objectFit="cover" className="rounded-lg hover:opacity-80" />
 			</div>
 			<div className="flex flex-col flex-grow md:pl-5 pt-5 md:pt-0">
 				<div className="flex justify-between">

@@ -64,7 +64,7 @@ const Header = () => {
 		{/* Logo */}
 		<div className="relative w-10 h-10 mr-5">
 			<Link href="/">
-				<Image src={Logo} layout="fill" objectFit="contain"/>
+				<Image src={Logo} alt="logo" layout="fill" objectFit="contain"/>
 			</Link>
 		</div>
 
