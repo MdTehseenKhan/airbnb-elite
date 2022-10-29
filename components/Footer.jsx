@@ -12,7 +12,7 @@ const Footer = () => {
 					<nav className="grid md:grid-cols-3 list-none font-[cereal-light]">
 						{ links?.map(({ linkText, link }) => (
 							<li key={`${i}-${linkText}`} className="my-2">
-								<a href={link}>{linkText}</a>
+								<a href="#">{linkText}</a>
 							</li>
 						))}
 					</nav>
